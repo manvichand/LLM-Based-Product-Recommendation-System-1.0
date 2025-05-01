@@ -19,23 +19,25 @@ This project implements a FastAPI-based product recommendation system using `dis
    git clone (repo link)
    cd recommendation-system
 2. Create and activate a virtual environment:
-   # Windows: venv\Scripts\activate
-3. Install dependencies:
+     ```bash
+   git clone (repo link)
+    Windows: venv\Scripts\activate
+4. Install dependencies:
   pip install -r requirements.txt
-4. Run the FastAPI server:
+5. Run the FastAPI server:
     uvicorn main:app --reload
-5. Test endpoints (see proof_of_work.md).
+6. Test endpoints (see proof_of_work.md).
    
 ## Files
 
-main.py: FastAPI application.
-api.py: User and recommendation endpoints.
-auth.py: Authentication endpoint.
-database.py: SQLAlchemy setup.
-models.py: Database models.
-llm_engine.py: RAG pipeline.
-test_llm.py: RAG pipeline tests.
-proof_of_work.md: Documentation with endpoint tests.
+1. main.py: FastAPI application.
+2. api.py: User and recommendation endpoints.
+3. auth.py: Authentication endpoint.
+4. database.py: SQLAlchemy setup.
+5. models.py: Database models.
+6. llm_engine.py: RAG pipeline.
+7. test_llm.py: RAG pipeline tests.
+8. proof_of_work.md: Documentation with endpoint tests.
 
 ## Notes
 
