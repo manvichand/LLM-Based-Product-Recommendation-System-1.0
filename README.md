@@ -6,6 +6,7 @@ This project implements a FastAPI-based product recommendation system using `dis
 ## Features
 
 - **Database**: SQLite with 3665 products, 4339 users, 397924 feedback entries.
+- **Dataset**: Online_retail.csv(referenced in proof of work)
 - **Endpoints**: `/users/` (create user), `/token` (authenticate), `/recommend/` (generate recommendations).
 - **RAG Pipeline**: Adapts `distilgpt2` for recommendations, tested via `test_llm.py`.
 - **Authentication**: JWT-based with password hashing.
