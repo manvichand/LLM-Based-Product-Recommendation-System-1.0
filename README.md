@@ -46,5 +46,4 @@ This project implements a FastAPI-based product recommendation system using `dis
 2. RAG pipeline ensures effective recommendations.
 3. Caching and feedback endpoints planned for future work.
    
-#MANVI CHAND
-EOF
+# MANVI CHAND
