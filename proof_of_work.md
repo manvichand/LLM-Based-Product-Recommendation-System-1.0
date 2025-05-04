@@ -8,7 +8,7 @@ Setup
 1. Database: recommendation.db with 3665 products, 4339 users, and 397924 feedback entries, managed via SQLAlchemy.
 2. RAG Pipeline: Implemented in llm_engine.py, tested via test_llm.py, generating recommendations (e.g., "WHITE     HANGING HEART T-LIGHT HOLDER").
 3. FastAPI Server: Running on http://127.0.0.1:8000.
-4. GitHub Repository: [Insert GitHub URL, e.g., https://github.com/yourusername/recommendation-system]
+4. GitHub Repository: https://github.com/manvichand/LLM-Based-Product-Recommendation-System-1.0
 
 2. Implementation Details
 
@@ -99,7 +99,7 @@ No errors reported during endpoint tests.
 
 6. Conclusion
 
-The system successfully meets the requirements, including database integration, authentication, API development, and recommendation generation using distilgpt2. The GitHub repository contains all source code, and this document, with endpoint tests and screenshots, proving its functionality.
+The system successfully included database integration, authentication, API development, and recommendation generation using distilgpt2. The GitHub repository contains all source code, and this document, with endpoint tests and screenshots, proving its functionality.
 
 
-Submitted by Manvi Chand on May 1, 2025
+Manvi Chand
