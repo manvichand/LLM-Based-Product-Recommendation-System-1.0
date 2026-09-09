@@ -11,7 +11,7 @@ from jose import JWTError, jwt
 router = APIRouter()
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/token")
-SECRET_KEY = "3adc8d606bbe4541dcd69940e7c0788ccc45d63baaf583bc342e7e0778f6620d"
+SECRET_KEY = ".."
 ALGORITHM = "HS256"
 
 class UserCreate(BaseModel):
