@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 from jose import JWTError, jwt
 from typing import Optional
 
-SECRET_KEY = "3adc8d606bbe4541dcd69940e7c0788ccc45d63baaf583bc342e7e0778f6620d" #must be generated and kept private
+SECRET_KEY = ".." #must be generated and kept private
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
